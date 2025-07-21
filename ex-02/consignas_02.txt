@@ -1,0 +1,41 @@
+Hoy tendrán la oportunidad de demostrar sus habilidades y conocimientos en CSS a través de este examen.
+Cada pregunta está diseñada para evaluar su comprensión de los conceptos fundamentales y avanzados de CSS que hemos cubierto en clase.
+
+A continuación, encontrarán una serie de ejercicios prácticos y teóricos.
+Por favor, lean cada pregunta cuidadosamente y asegúrense de entender lo que se les pide antes de comenzar a responder.
+Recuerden aplicar las mejores prácticas de CSS y mantener su código limpio y bien organizado. Utilizar comentarios cuando sea necesario.
+
+1- En 01.html utilizando la etiqueta style aplicar:
+  - Aplicar al body fuente: fantasy.
+  - Cambia el color del texto del <h1> a marrón (#5d4037). Tamaño de fuente 2.5em.
+  - Establece un fondo gris claro (#CCCCCC) para el <body>.
+  - Primer y segundo párrafo: fondo blanco, margen interno (padding) de 20px, bordes redondeados de 5px, margen inferior de 15px. Borde a la
+  derecha de 4px sólido de color #8d6e63.
+
+2- Crear un archivo llamado 02.html. Crear un directorio llamado estilos, dentro crea un archivo llamado 02.css y vincularlo
+con 02.html. En el archivo html crear un título principal con id principal que debe estar dentro de un header. El título
+tiene tamaño de fuente: 2.3em. Color del texto: violeta (utiliza el valor hexadecimal). Color de fondo: blanco (utiliza el valor hexadecimal #8A2BE2).
+Alinear a la derecha. Aplica la familia de fuentes cursive.
+
+3- Crear un archivo llamado 03.html. En el directorio estilos crear 03.css y vincularlo con 03.html. Crear un contenedor
+main y agrega dos secciones. En la primera sección utilizando flexbox, centrar el logo de renault.png con anchura de 350px.
+Agregar a la imagen un borde de color negro redondeado y un margin interior de 15px.
+En la segunda sección agregar un título secundario que diga "formulario de contacto"
+con una clase que tenga las siguientes características: transformación a mayúsculas, fuente con peso, color a elección (menos el negro),
+texto inclinado, alineación a la izquierda.
+Luego agregar un formulario con clase "form-contacto" que tenga los siguientes campos: nombre, apellido, selector de tipo de contacto: información,
+reclamo. Un área de texto extendido. Botón submit "Enviar consulta"
+Tamaño del formulario en ancho: 500px
+Utilizar flexbox para centrarlo.
+Aplicar estilos a gusto:
+- border y border-radius a los inputs
+- colores
+- márgenes internos y externos
+
+
+4- Crear archivo llamado 04.html. Deberás generar el resultado del archivo 04.png. Utilizar la imagen 04-img.jpg.
+Utilizar contenedor flexbox y aplicar un diseño adaptativo para que cuando la resolución sea >= a 768px se vea la imagen a la derecha.
+Para el caso contrario deberá verse uno debajo del otro (móvil primero / mobile first) tal cual la imagen 04.png.
+Colores:
+    - letra: #00265d
+Explicar el paso a paso del desarrollo ser lo más detallista posible. ¿Cómo manejaste el diseño adaptativo y las propiedades CSS utilizadas?

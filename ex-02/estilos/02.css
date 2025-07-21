@@ -1,0 +1,15 @@
+/* El título
+tiene tamaño de fuente: 2.3em. Color del texto: violeta (utiliza el valor hexadecimal). Color de fondo: blanco (utiliza el valor hexadecimal #8A2BE2).
+Alinear a la derecha. Aplica la familia de fuentes cursive.*/
+#principal {
+   
+    font-family: cursive;
+    font-size: 2.3em;
+    color: #8a2be2;
+    background-color: #ffffff;
+}
+header {
+    display: flex;
+    justify-content: right;
+
+}

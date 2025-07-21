@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .texto {
+            margin-left: 10px;
+        }
+
+        h1 {
+            color: #00265d;
+            font-weight: 500;
+            border-radius: 3px;
+        }
+
+        .f1 {
+            color: #00265d;
+            background-color: rgb(203, 246, 255);
+            font-weight: 600;
+            width: 20px;
+            padding: 3px;
+        }
+
+        .texto2 {
+            display: flex;
+
+
+        }
+
+        p {
+            width: 700px;
+        }
+
+        img {
+            width: 700px;
+            height: 300px;
+        }
+
+        @media screen and (width >=768px) {
+
+            main {
+                display: flex;
+               
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="textos">
+            <h1>Franco Colapinto tuvo su primer podio en Bélgica</h1>
+            <div class="texto2">
+                <div class="f1">F1</div>
+                <div class="texto"> por Elmenti Roso</div>
+            </div>
+            <p>Franco Colapinto empezó bien el GP de Bélgica, luego de un gras esfuerzo llegó tercero detrás de Oscar
+                Piastri.</p>
+        </div>
+
+        <div class="imagen"><img src="04-img.jpeg" alt=""></div>
+    </main>
+</body>
+<!-- 
+4- Crear archivo llamado 04.html. Deberás generar el resultado del archivo 04.png. Utilizar la imagen 04-img.jpg.
+Utilizar contenedor flexbox y aplicar un diseño adaptativo para que cuando la resolución sea >= a 768px se vea la imagen a la derecha.
+Para el caso contrario deberá verse uno debajo del otro (móvil primero / mobile first) tal cual la imagen 04.png.
+Colores:
+    - letra: #00265d
+Explicar el paso a paso del desarrollo ser lo más detallista posible. ¿Cómo manejaste el diseño adaptativo y las propiedades CSS utilizadas?
+use el display flex para hacer flexible el body
+el width y height para medir el tamaño
+backround color para ponerle un color al fondo
+el color para ponerle un color a la letra
+el font wight para medir el ancho de las letras
+el padding para poner un margen interior
+el border radius es para redondear los extremos de la caja
+ el justify content para alinear una caja -->
+
+</html>
